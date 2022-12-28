@@ -608,6 +608,7 @@ body {
 .modal-form-checkbox {
   flex-direction: row;
   align-items: center;
+  margin: 8px 0 16px 0;
 }
 .modal-checkbox {
   position: absolute;
@@ -627,13 +628,15 @@ body {
     border var(--transition-duration-time);
 }
 .form-policy {
+  display: inline;
   color: var(--first-color);
   transition: color var(--transition-duration-time);
+  text-decoration: underline;
 }
 .modal-form-button {
   min-width: 169px;
   align-self: center;
   padding: 16px 0;
-  margin: 16px 0 0 0;
+  margin: 0;
 }
 /*==================================================*/
