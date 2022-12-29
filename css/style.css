@@ -409,7 +409,7 @@ body {
 .footer-icons {
   margin: 0 80px 0 120px;
 }
-.footer-title {
+.footer-sup-text {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -437,17 +437,8 @@ body {
   margin: 0 0 0 24px;
   padding: 8px 20px 6px 20px;
   display: inline-flex;
-  /*align-items: baseline;*/
   gap: 16px;
 }
-/*.footer-button-text {
-  display: inline-block;
-}*/
-/*.footer-button-icon {
-  display: inline-block;
-  align-self: baseline;
-}*/
-
 /*================================================*/
 
 /*==============PORTFOLIO===========================*/
@@ -572,6 +563,7 @@ body {
   color: var(--five-color);
 }
 .modal-box-input {
+  display: block;
   position: relative;
 }
 .modal-form-input {
@@ -606,9 +598,8 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-form-checkbox {
-  flex-direction: row;
-  align-items: center;
-  margin: 8px 0 16px 0;
+  display: flex;
+  padding: 8px 0 16px 0;
 }
 .modal-checkbox {
   position: absolute;
@@ -627,8 +618,11 @@ body {
     background var(--transition-duration-time),
     border var(--transition-duration-time);
 }
+.modal-form-policy {
+  line-height: 1.2;
+  align-self: center;
+}
 .form-policy {
-  display: inline;
   color: var(--first-color);
   transition: color var(--transition-duration-time);
   text-decoration: underline;

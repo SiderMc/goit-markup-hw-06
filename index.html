@@ -382,7 +382,7 @@
             </p>
           </div>
           <div class="footer-icons">
-            <h2 class="footer-title">Social media</h2>
+            <p class="footer-sup-text">Social media</p>
             <ul class="social-icons social-icons-footer">
               <li class="social-icons-item">
                 <a href="" class="social-icons-link footer-social-link">
@@ -415,12 +415,14 @@
             </ul>
           </div>
           <div class="footer-form-box">
-            <h2 class="footer-title">Subscribe</h2>
-            <form action="" class="footer-form">
-              <label>
-                <input class="footer-form-item type="email" placeholder="E-mail"
-                /></label
-              >
+            <p class="footer-sup-text">Subscribe</p>
+            <form class="footer-form">
+              <input
+                aria-label="input"
+                class="footer-form-item"
+                type="email"
+                placeholder="E-mail"
+              />
               <button
                 class="footer-form-button section-botton buttons"
                 type="submit"
@@ -447,8 +449,8 @@
             Leave your contacts and we will call you back
           </p>
           <label class="modal-form-field">
-            <p class="modal-form-description">Name</p>
-            <div class="modal-box-input">
+            <span class="modal-form-description">Name</span>
+            <span class="modal-box-input">
               <input
                 name="user_name"
                 type="text"
@@ -459,11 +461,11 @@
               <svg class="modal-form-icon" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-icon-name"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-field">
-            <p class="modal-form-description">Phone</p>
-            <div class="modal-box-input">
+            <span class="modal-form-description">Phone</span>
+            <span class="modal-box-input">
               <input
                 name="user_phone"
                 type="tel"
@@ -474,11 +476,11 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-icon-phone"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-field">
-            <p class="modal-form-description">Email</p>
-            <div class="modal-box-input">
+            <span class="modal-form-description">Email</span>
+            <span class="modal-box-input">
               <input
                 name="user_email"
                 type="email"
@@ -488,25 +490,25 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-icon-email"></use>
               </svg>
-            </div>
+            </span>
           </label>
           <label class="modal-form-field">
-            <p class="modal-form-description">Comment</p>
+            <span class="modal-form-description">Comment</span>
             <textarea
               name="user_message"
               class="modal-form-input modal-form-message"
               placeholder="Text input"
             ></textarea>
           </label>
-          <label class="modal-form-field modal-form-checkbox">
+          <label class="modal-form-checkbox">
             <input name="policy" type="checkbox" class="modal-checkbox" />
             <svg class="modal-checkbox-icon" width="16" height="16">
               <use href="./images/symbol-defs.svg#icon-checkbox"></use>
             </svg>
-            <p class="modal-form-description">
+            <span class="modal-form-description modal-form-policy">
               I accept the terms and conditions of the
               <a href="" class="form-policy">Privacy Policy</a>
-            </p></label
+            </span></label
           >
           <button class="buttons section-botton modal-form-button">Send</button>
         </form>
